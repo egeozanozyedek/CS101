@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+/**
+ Name: Ege Ozan Özyedek
+ Date: 25.10.2017
+ Program Name: lab04c
+ Program Description: Using sentinels to end programs
+ */ 
+
+public class lab04c
+{
+  public static void main( String[] args)
+  {
+    Scanner input = new Scanner( System.in);
+    
+    // constants
+    
+    // variables
+    int amount ;
+    double sum ;
+    int maxAmount ;
+    int minAmount ;
+    double count;
+    double avg;
+    
+    
+    //Amount is declared as 1 so that the loop can start
+    amount = 1;
+    sum = 0;
+    count = 0 ;
+    maxAmount = 0 ;
+    minAmount = ' ' ;
+    
+    //This will ask the user amounts and at the end it will print some values.
+    //The program will stop if the user enters a negative value and will print the results.
+    while (0<amount) {
+      amount = input.nextInt() ;
+      
+      if(amount > maxAmount && 0<amount){
+        maxAmount = amount ;
+      }
+      
+      if(amount < minAmount && 0<amount){ 
+        minAmount = amount ;
+      }
+      if (0<amount){
+        sum = sum + amount ;
+        count++;
+      }
+    }  
+    
+    avg = sum/count ;
+    
+    //The results that were concluded with the  values given by the user
+    System.out.println("Sum of all the positive values given: " + sum);
+    System.out.println("Average of all positive values given: " + avg);
+    System.out.println("Maximum value: " + maxAmount );
+    System.out.println("Minimum value: " + minAmount );
+    input.close() ;
+  }
+  
+}

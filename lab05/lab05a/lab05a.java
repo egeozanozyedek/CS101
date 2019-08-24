@@ -1,0 +1,74 @@
+import java.util.Scanner;
+/*
+ Name: Ege Ozan Özyedek
+ Date: 01.11.2017
+ Program Name: lab05a
+ Program Description: Printing a rectangle with a hole in the middle
+ */ 
+public class lab05a
+{
+  public static void main( String[] args)
+  {
+    Scanner input = new Scanner( System.in);
+    
+    // constants 
+    final char SENTINEL_1 = 'y';
+    final char SENTINEL_2 = 'Y' ;
+    
+    // variables
+    int height;
+    int width;
+    int thickness;
+    int i;
+    int a;
+    int holeWidth;
+    int holeHeight;
+    char programRestart;
+    
+    // program code
+    
+    //Do while so that it can run the program once and continue if user inputs Y
+    do { 
+      System.out.println( "Enter a positive width value");
+      width = input.nextInt();
+      System.out.println( "Enter a positive height value");
+      height = input.nextInt();
+      System.out.println( "Enter a positive for the thickness of the rectangle");
+      thickness =  input.nextInt();
+      
+      holeWidth = width - thickness ;
+      holeHeight = height - thickness ;
+      
+      if ( height <= 0 || width <= 0 || thickness <= 0 ) {
+        System.out.println( "Please enter positive values for height, width and thickness");
+      }
+      else {
+        for ( a = 0 ; a < width ; a++) {
+          for ( i = 0 ; i < height ; i++) {
+            if ( a >= thickness && a < holeWidth  &&  i >= thickness && i < holeHeight ) {
+              System.out.print( " ");
+            }
+            else {
+              System.out.print( "*");
+            }
+          }
+          System.out.println( );
+        }
+      } 
+      
+      //Will print if the rectangle has no hole in the middle
+      if ( thickness * 2 > width || thickness * 2 > height ) {
+        System.out.println( "No hole :(");
+      }
+      
+      System.out.println( "If you want to continue creating rectangles, type y ; if not type whichever character you like.");
+      programRestart = input.next().charAt(0) ;
+      
+    } while( programRestart == SENTINEL_1 || programRestart == SENTINEL_2 ) ;
+    
+    System.out.println( "Goodbye friend ;(");
+    
+    input.close();
+  }
+  
+}

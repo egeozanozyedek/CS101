@@ -1,0 +1,15 @@
+public class TestDiceGame {
+  
+  public static void main( String[] args)
+  {
+    DiceGame x;
+    
+    x = new DiceGame();
+    
+    int game;
+    game = x.play();
+    
+    System.out.println(game);
+    
+  }
+}

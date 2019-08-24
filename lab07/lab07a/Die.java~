@@ -1,0 +1,24 @@
+public class Die {
+  
+  // properties
+  int dieValue;
+  
+  // constructors
+  public Die() {}
+  
+  // methods
+  
+  public int roll( ) {
+    dieValue = (int) (Math.random() * 6 + 1);
+    return dieValue;
+  }
+  
+  public int getFaceValue ( ) {
+    return dieValue;
+  }
+  
+  public String toString ( ) {
+    return "[" + roll() + "]" + "[" + getFaceValue() + "]" ;
+  }
+  
+} 

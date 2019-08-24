@@ -1,0 +1,101 @@
+import java.util.ArrayList;
+
+public class Histogram
+{
+  
+  private static ArrayList<Integer> store = new ArrayList<Integer>();
+  private static Dice dice = new Dice();
+  
+  //Main
+  public static void main( String[] args)
+  {
+    System.out.println("\n" + histogram());
+    System.out.println( store.toString());
+  }
+  
+  
+  public static void createList(int j) {
+    int n;
+    for (n = 1; n <= j; n++) {
+      store.add(0);
+    }
+  }
+  
+  public static void createData() {
+    int n;
+    int k;
+    int roll;
+    
+    for (n = 1; n <= 1000; n++) {
+      roll = dice.roll();
+      for (k = 2; k <=12; k++) {
+        if (k == roll) {
+          store.set(k-2, store.get(k-2) + 1);
+        }
+      }
+    }  
+    
+  }
+  
+  
+  //Method
+  public static int getFreq() {
+    int n;
+    int k;
+    int roll;
+    int max;
+    int freq;
+    
+    max = 0;
+    
+    createList(11);
+    
+    for (n = 1; n <= 1000; n++) {
+      roll = dice.roll();
+      for (k = 2; k <=12; k++) {
+        if (k == roll) {
+          store.set(k-2, store.get(k-2) + 1);
+        }
+      }
+    }
+    
+    for (n = 0; n < store.size() - 1; n++) {
+      if (store.get(n) > max) {
+        max = store.get(n);
+      }
+    }    
+    
+    freq = (int) max/10 ;
+    return freq; 
+    
+  }
+  
+  //Method
+  public static String histogram() {
+    String result;
+    result = "";
+    int n;
+    int k;
+    int freq;
+    
+    freq = getFreq();
+    
+    for (n = 1 ; n <= 10; n++) {
+      for (k = 0; k < store.size(); k++) {
+        if (store.get(k) < freq * (11 - n) ) {
+          result = result + " ";
+        }
+        else {
+          result = result + "*";
+        }
+      }
+      result = result + "\n";
+    }
+    
+    return result;
+    
+    
+  }
+  
+  
+}

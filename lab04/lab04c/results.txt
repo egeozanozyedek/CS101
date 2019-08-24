@@ -1,0 +1,4 @@
+Sum of all the positive values given: 281.0
+Average of all positive values given: 46.833333333333336
+Maximum value: 89
+Minimum value: 4

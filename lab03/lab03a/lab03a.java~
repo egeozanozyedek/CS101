@@ -1,0 +1,77 @@
+import java.util.Scanner;
+
+/*
+ Name:Ege Ozan Özyedek
+ Date:18.10.2017
+ Program Description:If statements
+ Program Name:lab03a
+ */ 
+public class lab03a
+{
+  public static void main( String[] args)
+  {
+    Scanner input = new Scanner( System.in);
+    
+    //Variables
+    int even ;
+    int odd ;
+    int sumFormula ;
+    int sumLoop ;
+    int n ;
+    
+    
+    even = 0 ;
+    odd = 0 ;
+    n = input.nextInt() ;
+    sumFormula = (n*(n+1))/2 ;
+    sumLoop = 0 ;
+    
+    
+    
+    for ( int x = 0; x <= 50; x++ ) 
+    {
+      
+      if (n >= x) {
+        sumLoop = sumLoop + x ;
+      }
+      
+      if (!(12<= x && x<=25)){
+        System.out.print(x);
+        System.out.println(" out of range 12-25");
+        
+      }
+      //Determines the amount of even numbers
+      if (x % 2 == 0) {
+        even++ ;
+      }
+      //Determines the amount of odd numbers
+      else if (x % 2 == 1) {
+        odd++ ;
+      }
+      
+      //The following 4 if/else statements print Hi Five/Two/ThreeOrSeven/Others depending on whether it dividable on a spesific number
+      if (x % 5 == 0) {
+        System.out.println(" Hi Five");
+      }
+      if (x % 2 == 0) {
+        System.out.println(" Hi Two");
+      }
+      if (x % 3 == 0 || x % 7 == 0) {
+        System.out.println(" Hi ThreeOrSeven");
+      }
+      else {
+        System.out.println(" Hi Others");
+      }
+    }
+    
+    //These print out some of the values we found
+    System.out.println("");
+    System.out.println("The amount of odd numbers = " + odd);
+    System.out.println("The amount of even numbers = " + even);
+    System.out.println("The sum using the formula = " + sumFormula);
+    System.out.println("The sum using the loop = " + sumLoop);
+    System.out.println("The sum using the loop and the sum using the formula are the same! ");
+    
+    input.close();
+  }
+}

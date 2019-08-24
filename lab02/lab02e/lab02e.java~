@@ -1,0 +1,63 @@
+/*
+Name:Ege Ozan Özyedek
+Date:11.10.2017
+Program Description:A program that makes it easier for a company to crate websites for their employees simply by entering spesific info about them
+Program Name:lab02e
+*/
+import java.util.Scanner;
+
+public class lab02e {
+
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+     
+    //html strings
+    String para = "<p>";
+    String paraClose = "</p>";
+    String body = "<body>";
+    String bodyClose = "</body>";
+    String html = "<html>";
+    String htmlClose = "</html>";
+    String title = "<title>" ;
+    String titleClose = "</title>";
+    String head = "<head>";
+    String headClose = "</head>";
+    String h1= "<h1>";
+    String h1Close= "</h1>";
+    String hr = "<hr>";
+    String doctype = "<!DOCTYPE html>";
+    
+    
+    
+    
+      // Info that will be asked to the user
+      String name = input.next();
+      int age = input.nextInt();
+      double salary = input.nextDouble();
+      String comment = input.next();
+         
+        //The html code that will be printed with the info given
+        System.out.println("");
+        System.out.println(doctype);
+        System.out.println("");
+        System.out.println(html); 
+        System.out.println("");
+        System.out.println(head);
+        System.out.println(title + name + "'s Home Page" + titleClose);
+        System.out.println(headClose);
+        System.out.println("");
+        System.out.println(body);
+        System.out.println("");
+        System.out.println(hr);
+        System.out.println(h1 + name + h1Close);
+        System.out.println(para + "Age:" + age + paraClose);
+        System.out.println(para + "Salary:" + salary + paraClose);
+        System.out.println(para + "Comments:" + comment + paraClose);
+        System.out.println(hr);
+        System.out.println("");
+        System.out.println(bodyClose);
+        System.out.println("");
+        System.out.println(htmlClose);
+    input.close();
+  }
+}

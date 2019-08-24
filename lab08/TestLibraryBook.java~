@@ -1,0 +1,53 @@
+/*
+ Name: Ege Ozan Özyedek
+ Date: 06.12.2017
+ Program Name: TestLibraryBook
+ Program Description: Tests LibraryBook class
+ */ 
+public class TestLibraryBook
+{
+  public static void main( String[] args)
+  {
+    // constants
+    // variables
+    LibraryBook bookI;
+    
+    // program code
+    
+    LibraryBook book = new LibraryBook("Origin", "Dan Brown", "", 0, false );
+    LibraryBook book2 = new LibraryBook("Game Of Thrones", "R.R. Martin");
+    LibraryBook bookII = new LibraryBook("Game Of Thrones", "R.R. Martin");
+    bookI = book;
+    
+    System.out.println("Comparison" + "\n");
+    System.out.println(book == bookI);          //Two references to a single object
+    System.out.println(book.equals(bookI));
+    System.out.println(book2 == bookII);        //Two references to two individual objects with different properties
+    System.out.println(book2.equals(bookII));         
+    System.out.println(book == bookII);         //Two references to two individual objects with identical relevant properties
+    System.out.println(book.equals(bookII) + "\n" );  
+    
+    System.out.println(book.hasSameAuthor(bookI));         //Should return true
+    System.out.println(book.hasSameAuthor(book2));         //Should return false
+    System.out.println(book2.hasSameTitle(bookII));        //Should return true
+    System.out.println(book2.hasSameTitle(book) + "\n");   //Should return false
+    
+    System.out.println(book.toString());
+    System.out.println();
+    System.out.println(book2.toString() + "\n" );
+    
+    book.loanBook("11/12/17");
+    System.out.println("The book is loaned: " + book.onLoan() );
+    System.out.println("Times book is loaned: " + book.getTimesLoaned() + "\n" );
+    
+    book.returnBook();
+    System.out.println("The book is loaned: " + book.onLoan() + "\n" );
+    
+    book.loanBook("20/12/17");
+    System.out.println("The book is loaned: " + book.onLoan() );
+    System.out.println("Times book is loaned: " + book.getTimesLoaned() + "\n" );
+    
+    System.out.println(book.toString());
+    
+  }
+}

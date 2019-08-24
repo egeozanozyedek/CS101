@@ -1,0 +1,146 @@
+/*
+ Name: Ege Ozan Özyedek
+ Date: 06.12.2017
+ Program Name: Library
+ Program Description: A class that creates a library containing 4 books that are initialized null. User can add books
+ by title and author, find the book by title and loan remove or return the book.
+ */ 
+public class Library {
+  
+  // properties
+  private LibraryBook b1;
+  private LibraryBook b2;
+  private LibraryBook b3;
+  private LibraryBook b4;
+  
+  // constructors
+  
+  /**
+   * Conductor of class to create an empty
+   * library by setting books to null
+   */
+  public Library() { 
+    b1 = null;
+    b2 = null;
+    b3 = null;
+    b4 = null;
+  }
+  
+  // methods
+  
+  /**
+   * Shows whether the library is empty or not
+   * @return true if empty false if not
+   */
+  public boolean isEmpty() {
+    boolean result;
+    if ( b1 == null && b2 == null && b3 == null && b4 == null ) {
+      result = true;
+    }
+    else {
+      result = false;
+    }
+    return result;
+  }
+  
+  /**
+   * toString to make debugging easy
+   * @return method returns
+   */
+  public String toString() {
+    String result;
+    result = "";
+    if ( isEmpty()) {
+      result = "The library is empty.";
+    }
+    if ( b1 != null) {
+      result = result + b1.toString() + "\n";
+    }
+    if ( b2 != null) {
+      result = result + b2.toString() + "\n";
+    }
+    if ( b3 != null) {
+      result = result + b3.toString() + "\n";
+    }
+    if ( b4 != null) {
+      result = result + b4.toString() + "\n";
+    }
+    return result;
+  }
+  
+  /**
+   * Will be used to add a book to the library
+   * @param title which declares a null book 
+   * @param author does the same thing as title
+   */
+  public void add( String title, String author) {
+    if ( b1 == null) {
+      b1 = new LibraryBook( title, author);
+    }
+    else if ( b2 == null) {
+      b2 = new LibraryBook( title, author);
+    }
+    else if ( b3 == null) {
+      b3 = new LibraryBook( title, author);
+    }
+    else if ( b4 == null) {
+      b4 = new LibraryBook( title, author);
+    }
+    else {
+      System.out.println( "The library is full :/");
+    }
+  }
+  
+  /**
+   *When used this method returns the book with the title
+   * @param title to compare the books title
+   * @return the book with the same title
+   */
+  public LibraryBook findByTitle( String title) {
+    LibraryBook result;
+    if ( b1 != null && b1.title.equals( title)) {
+      result = b1;
+    }
+    else if ( b2 != null && b2.title.equals( title)) {
+      result = b2;
+    }
+    else if ( b3 != null && b3.title.equals( title)) {
+      result = b3;
+    }
+    else if ( b4 != null && b4.title.equals( title)) {
+      result = b4;
+    }
+    else {
+      result = null;
+    }
+    return result;
+  }
+  
+  /**
+   * This method removes a book from a library
+   * @param book which is the chosen book
+   * @return returns false if there is no book to be removed
+   */
+  public boolean remove( LibraryBook book) {
+    if ( book == b1) {
+      b1 = null;
+      return true;
+    }
+    else if ( book == b2) {
+      b2 = null;
+      return true;
+    }
+    else if ( book == b3) {
+      b3 = null;
+      return true;
+    }
+    else if ( book == b4) {
+      b4 = null;
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  
+}

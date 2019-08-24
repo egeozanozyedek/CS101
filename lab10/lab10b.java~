@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+/*
+ Name: Ege Ozan Özyedek
+ Date: 20.12.2017
+ Program Name: lab10b
+ Program Description: 
+ */ 
+public class lab10b
+{
+  public static void main( String[] args)
+  {
+    Scanner input = new Scanner( System.in);
+    
+    // constants
+    BigNum[] array;
+    String random;
+    int userInput;
+    BigNum biggest;
+    int save;
+    // variables
+    array = new BigNum[10];
+    biggest = new BigNum("0");
+    int n;
+    // program code
+    
+    userInput = 1;
+    
+    //for loop that initializes arrays according to the size and base
+    for (int k = 0; k < 10; k++) {
+      random = "";
+      for (int j = 0; j < BigNum.SIZE; j++) {
+        random = random + (int) (Math.random() * BigNum.BASE + 0);
+      }
+      array[k] = new BigNum(random);
+    }
+    
+    //prints all array elements
+    for (int k = 0; k < 10; k++ ) {
+      System.out.println(array[k]);
+    }
+    
+    System.out.println( "\n" + "Enter a value to swap biggest and (input-1)th || Enter a negative number or zero to exit");
+    userInput = input.nextInt();
+    
+    //While loop to continue till the user enters a negative int
+    while (userInput > 0) {
+      n = 0;
+      save = 0;
+      biggest = new BigNum("0");
+      
+      //Finds the biggest BigNum, prints the biggest array element and the array element at userInput - 1
+      while (n < userInput) {
+        if (biggest.isLessThan(array[n])) {
+          biggest = array[n];
+          save = n;
+        }
+        n++;
+      }
+      
+      //Changes the elements
+      array[save] = array[userInput - 1];
+      array[userInput - 1] = biggest;
+      
+      for (int k = 0; k < 10; k++ ) {
+        System.out.println(array[k]);
+      }
+      
+       System.out.println( "\n" + "Swapped " + (userInput) + " and " + (save + 1) + "!");
+      
+      //Asks the user another input, if negative it will exit
+      userInput = input.nextInt();
+    }
+    System.out.println("Bye!");
+    
+  }
+}
+

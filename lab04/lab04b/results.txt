@@ -1,0 +1,5 @@
+*Results* 
+The sum of the values is: 5324.0
+The minimum value is: -2.0
+The maximum value is: 98.0
+The average of the values is: 53.24

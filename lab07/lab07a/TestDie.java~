@@ -1,0 +1,21 @@
+public class TestDie {
+  
+  public static void main( String[] args)
+  {
+    Die x;
+    Die y;
+    x = new Die ();
+    y = new Die ();
+    
+    int xValue;
+    int yValue;
+    
+    xValue = x.roll();
+    yValue = y.roll();
+    
+    System.out.print(xValue + ", ");
+    System.out.println(x.getFaceValue());
+    System.out.print(yValue + ", ");
+    System.out.println(y.getFaceValue());
+  }
+}
