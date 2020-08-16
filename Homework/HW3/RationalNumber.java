@@ -1,0 +1,211 @@
+/*
+ Name: Ege Ozan Özyedek
+ Date: 16.12.2017
+ Program Name: TestRationalNumber
+ Program Description: A class that creates a rational number and can make different operations 
+ with other rational numbers
+ */ 
+public class RationalNumber {
+  
+  
+//properties
+  private int numerator;
+  private int denominator;
+  private String rational;
+  private int tempNum;
+  private int tempDen;
+  
+//constructor
+  
+  /**
+   * Conductor of class to initilize properties
+   * @param n which would be the start numerator
+   * @param d which is the start denominator
+   */
+  public RationalNumber(int n, int d) {
+    int gdc = gdc(n,d);
+    
+    if (gdc < 0) {
+      gdc = -gdc;
+    }
+    
+    if (d > 0) {
+      numerator = n/gdc;
+      denominator = d/gdc;
+    }
+    else if (d < 0) {
+      numerator = -n/gdc;
+      denominator = -d/gdc;
+    }
+    else if (d == 0) {
+      System.out.println("Error: Denominator cannot be 0");
+      numerator = 0;
+      denominator = 1;
+    }
+    rational = numerator + "/" + denominator;
+  }
+  
+  
+  
+//methods
+  
+  /**
+   * A method to add two rational numbers together
+   * @param other, which is another RationalNumber
+   * @return a new instance of class with the new numerator and denominator properties
+   */
+  public RationalNumber add(RationalNumber other) {
+    tempNum = 0;
+    tempDen = 0;
+    
+    tempNum = numerator *  other.denominator 
+      + other.numerator * denominator ;
+    tempDen = denominator *  other.denominator;
+    
+    int gdc = gdc(tempNum,tempDen);
+    tempNum = tempNum/gdc;
+    tempDen  = tempDen/gdc;
+    return new RationalNumber(tempNum,tempDen);
+  }
+  
+  /**
+   * A method to subtract two rational numbers from each other
+   * @param other, which is another RationalNumber
+   * @return a new instance of class with the new numerator and denominator properties
+   */
+  public RationalNumber subtract(RationalNumber other) {
+    tempNum = 0;
+    tempDen = 0;
+    
+    tempNum = (numerator *  other.denominator - other.numerator * denominator) ;
+    tempDen = denominator *  other.denominator;
+    
+    int gdc = gdc(tempNum,tempDen);
+    tempNum = tempNum/gdc;
+    tempDen = tempDen/gdc;
+    
+    return new RationalNumber(tempNum,tempDen);
+  }
+  
+  /**
+   * A method to multiply two rational numbers together
+   * @param other, which is another RationalNumber
+   * @return a new instance of class with the new numerator and denominator properties
+   */
+  public RationalNumber multiply(RationalNumber other) {
+    tempNum = 0;
+    tempDen = 0;
+    
+    tempNum = numerator * other.numerator;
+    tempDen = denominator * other.denominator;
+    
+    int gdc = gdc(tempNum,tempDen);
+    tempNum = tempNum/gdc;
+    tempDen  = tempDen/gdc;
+    
+    return new RationalNumber(tempNum,tempDen);
+  }
+  
+  /**
+   * A method to divide two numbers 
+   * @param other, which is another RationalNumber
+   * @return a new instance of class with the new numerator and denominator properties
+   */
+  public RationalNumber division(RationalNumber other) {
+    tempNum = 0;
+    tempDen = 0;
+    
+    tempDen  = other.numerator * denominator;
+    tempNum = numerator * other.denominator;
+    
+    int gdc = gdc(tempNum,tempDen);
+    tempNum = tempNum/gdc;
+    tempDen  = tempDen/gdc;
+    
+    return new RationalNumber(tempNum,tempDen);
+  }
+  
+  /**
+   * A method that changes the numerator to the denominator and also the opposite
+   * @return a new instance of class with the new numerator and denominator properties
+   */
+  public RationalNumber reciprocal() {
+    
+    if (numerator > 0) {
+      tempNum = denominator;
+      tempDen = numerator;
+    }
+    else {
+      tempNum = -denominator;
+      tempDen = -numerator;
+    }
+    
+    return new RationalNumber(tempNum,tempDen); 
+  }
+  
+  /**
+   * A method to find the greatest common diviser of two ints
+   * @param n, the first int
+   * @param d, the second int
+   * @return n or the gdc of the two integers. It will return the gdc of d and n%d till n%d is 0.
+   */
+  private int gdc(int n, int d) {
+    if (d == 0) {
+      return n;
+    }
+    return gdc(d,n%d);
+  }
+  
+  /**
+   * A method to check whether the rational number is an integer
+   * @return true if its an integer
+   */
+  public boolean isInteger() {
+    return denominator == 1;
+  }
+  
+  /**
+   * A method to check whether the rational number is zero
+   * @return true if the numerator is 0
+   */
+  public boolean isZero() {
+    return numerator == 0;  
+  }
+  
+  /**
+   * A method to check whether the rationl number is less than another one
+   * @param other which is another RationalNumber
+   * @return true if its less than other
+   */
+  public boolean isLessThan(RationalNumber other) {
+    
+    if (denominator == other.denominator) {
+      return other.numerator > numerator;
+    }
+    else {
+      return (other.numerator * denominator) > (numerator * other.denominator) ;
+    }
+  }
+  
+  /**
+   * A method to check whether the rational number is equal to another
+   * @param other, another RationalNumber
+   * @return true if it is equal to other
+   */
+  public boolean equals(RationalNumber other) {
+    return numerator == other.numerator &&
+      denominator == other.denominator;
+  }
+  
+  /**
+   * to string method to print the rational number
+   * @return rational which is numerator over denominator
+   */
+  public String toString() {
+    if (denominator == 0) 
+      return "Error: Denominator cannot be 0";
+    else
+      return rational;
+  }
+ 
+}

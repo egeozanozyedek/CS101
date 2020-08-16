@@ -1,0 +1,52 @@
+public class RationalNumbers {
+  
+  
+//properties
+  private double rationalNumber;
+  
+  
+//constructor
+  public RationalNumbers(int n, int d) {
+    
+    if (d > 0) {
+      int gdc = gdc(n,d);
+      rationalNumber = (n/gdc)/(d/gdc) ;
+    }
+    
+  }
+  
+  //methods
+  
+  public double addition(double other) {
+  rationalNumber = rationalNumber + other
+  }
+  public double substraction(double other) {}
+  public double multiplication(double other) {}
+  public double division(double other) {}
+  public double reciprocal() {}
+  
+  private int gdc(int n, int d) {
+    if (d == 0) {
+      return n;
+    }
+    return gdc(n,n%d);
+  }
+  
+  public boolean isInteger() {
+    
+  }
+  public boolean isZero() {
+    
+  }
+  public boolean isLessThan(double other) {
+    
+  }
+  public boolean equals(double other) {
+    
+  }
+  public String toString() {
+    
+  }
+  
+  
+}

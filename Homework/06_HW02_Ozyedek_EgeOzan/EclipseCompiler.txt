@@ -1,0 +1,96 @@
+5 Ara 2017 18:57:36 GMT: Log 'EclipseCompiler.txt' opened: 5 Ara 2017 18:57:36 GMT with name C:\Users\EgeOzan\Desktop\HW2\EclipseCompiler.txt
+5 Ara 2017 18:57:36 GMT: Log 'EclipseCompiler.txt' opened: 5 Ara 2017 18:57:36 GMT with name C:\Users\EgeOzan\Desktop\HW2\EclipseCompiler.txt
+5 Ara 2017 19:03:46 GMT: diagnostics = javax.tools.DiagnosticCollector@1fe56ea
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@110a469
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\TestCar.java, C:\Users\EgeOzan\Desktop\HW2\Car.java]
+5 Ara 2017 19:03:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1f1e2a4' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:03:47 GMT: Compiler call returned
+5 Ara 2017 19:06:57 GMT: diagnostics = javax.tools.DiagnosticCollector@70d18e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f7e10c
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\Car.java, C:\Users\EgeOzan\Desktop\HW2\TestCar.java]
+5 Ara 2017 19:06:57 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1915aaa' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:06:57 GMT: Compiler call returned
+5 Ara 2017 19:06:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e209dc
+5 Ara 2017 19:06:57 GMT:  Kind = ERROR
+5 Ara 2017 19:06:57 GMT: Name = C:\Users\EgeOzan\Desktop\HW2\TestCar.java LineNo = 19 ColNo = 30 Msg = 'The field Car.gallon is not visible'
+5 Ara 2017 19:06:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9b4398
+5 Ara 2017 19:06:57 GMT:  Kind = ERROR
+5 Ara 2017 19:06:57 GMT: Name = C:\Users\EgeOzan\Desktop\HW2\TestCar.java LineNo = 20 ColNo = 30 Msg = 'The field Car.miles is not visible'
+5 Ara 2017 19:06:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11617be
+5 Ara 2017 19:06:57 GMT:  Kind = ERROR
+5 Ara 2017 19:06:57 GMT: Name = C:\Users\EgeOzan\Desktop\HW2\TestCar.java LineNo = 23 ColNo = 30 Msg = 'The field Car.gallon is not visible'
+5 Ara 2017 19:06:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1faf66f
+5 Ara 2017 19:06:57 GMT:  Kind = ERROR
+5 Ara 2017 19:06:57 GMT: Name = C:\Users\EgeOzan\Desktop\HW2\TestCar.java LineNo = 24 ColNo = 30 Msg = 'The field Car.miles is not visible'
+5 Ara 2017 19:06:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15a676d
+5 Ara 2017 19:06:57 GMT:  Kind = ERROR
+5 Ara 2017 19:06:57 GMT: Name = C:\Users\EgeOzan\Desktop\HW2\TestCar.java LineNo = 27 ColNo = 30 Msg = 'The field Car.gallon is not visible'
+5 Ara 2017 19:06:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18f761d
+5 Ara 2017 19:06:57 GMT:  Kind = ERROR
+5 Ara 2017 19:06:57 GMT: Name = C:\Users\EgeOzan\Desktop\HW2\TestCar.java LineNo = 28 ColNo = 30 Msg = 'The field Car.miles is not visible'
+5 Ara 2017 19:07:10 GMT: diagnostics = javax.tools.DiagnosticCollector@32aba6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ac1c97
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\TestCar.java, C:\Users\EgeOzan\Desktop\HW2\Car.java]
+5 Ara 2017 19:07:10 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@160cf2b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:07:10 GMT: Compiler call returned
+5 Ara 2017 19:19:17 GMT: diagnostics = javax.tools.DiagnosticCollector@1cf52ee
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1efd13f
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\Car.java, C:\Users\EgeOzan\Desktop\HW2\TestCar.java]
+5 Ara 2017 19:19:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fa9106' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:19:17 GMT: Compiler call returned
+5 Ara 2017 19:23:27 GMT: diagnostics = javax.tools.DiagnosticCollector@42fdcf
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@129df5c
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\Car.java, C:\Users\EgeOzan\Desktop\HW2\TestCar.java]
+5 Ara 2017 19:23:27 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@16ee78d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:23:27 GMT: Compiler call returned
+5 Ara 2017 19:27:33 GMT: diagnostics = javax.tools.DiagnosticCollector@14ead06
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@935241
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\Car.java, C:\Users\EgeOzan\Desktop\HW2\TestCar.java]
+5 Ara 2017 19:27:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14ea9de' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:27:33 GMT: Compiler call returned
+5 Ara 2017 19:27:39 GMT: diagnostics = javax.tools.DiagnosticCollector@1d0fc9c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a8c652
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\Car.java, C:\Users\EgeOzan\Desktop\HW2\TestCar.java]
+5 Ara 2017 19:27:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@873431' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:27:39 GMT: Compiler call returned
+5 Ara 2017 19:28:13 GMT: diagnostics = javax.tools.DiagnosticCollector@ae208f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@da8e1
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\Car.java, C:\Users\EgeOzan\Desktop\HW2\TestCar.java]
+5 Ara 2017 19:28:13 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@192fb59' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:28:13 GMT: Compiler call returned
+5 Ara 2017 19:28:19 GMT: diagnostics = javax.tools.DiagnosticCollector@17fd807
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c69b2a
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\Car.java, C:\Users\EgeOzan\Desktop\HW2\TestCar.java]
+5 Ara 2017 19:28:19 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@8a2da9' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:28:19 GMT: Compiler call returned
+5 Ara 2017 19:32:26 GMT: diagnostics = javax.tools.DiagnosticCollector@19741ff
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1a91a16
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\TestCar.java, C:\Users\EgeOzan\Desktop\HW2\Car.java]
+5 Ara 2017 19:32:26 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@594795' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:32:26 GMT: Compiler call returned
+5 Ara 2017 19:34:49 GMT: diagnostics = javax.tools.DiagnosticCollector@18b864b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@9454db
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\TestCar.java, C:\Users\EgeOzan\Desktop\HW2\Car.java]
+5 Ara 2017 19:34:49 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b5ebd8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:34:49 GMT: Compiler call returned
+5 Ara 2017 19:34:57 GMT: diagnostics = javax.tools.DiagnosticCollector@764720
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19d0d5b
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\TestCar.java, C:\Users\EgeOzan\Desktop\HW2\Car.java]
+5 Ara 2017 19:34:57 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@29f356' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:34:57 GMT: Compiler call returned
+5 Ara 2017 19:39:57 GMT: Log 'EclipseCompiler.txt' opened: 5 Ara 2017 19:39:57 GMT with name C:\Users\EgeOzan\Desktop\HW2\EclipseCompiler.txt
+5 Ara 2017 19:40:22 GMT: diagnostics = javax.tools.DiagnosticCollector@af7942
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@bb317c
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\TestCar.java, C:\Users\EgeOzan\Desktop\HW2\Car.java]
+5 Ara 2017 19:40:22 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@bd635e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:40:22 GMT: Compiler call returned
+5 Ara 2017 19:40:51 GMT: diagnostics = javax.tools.DiagnosticCollector@113c7fe
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@868c4
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\Car.java, C:\Users\EgeOzan\Desktop\HW2\TestCar.java]
+5 Ara 2017 19:40:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@476489' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:40:51 GMT: Compiler call returned
+5 Ara 2017 19:42:56 GMT: diagnostics = javax.tools.DiagnosticCollector@1e2cfc8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@6776b4
+fileObjects = [C:\Users\EgeOzan\Desktop\HW2\Car.java, C:\Users\EgeOzan\Desktop\HW2\TestCar.java]
+5 Ara 2017 19:42:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@38b7a6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW2;C:\Users\EgeOzan\Desktop\drjava-beta-20160913-225446.exe]
+5 Ara 2017 19:42:56 GMT: Compiler call returned

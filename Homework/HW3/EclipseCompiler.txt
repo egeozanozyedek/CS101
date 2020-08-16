@@ -1,0 +1,196 @@
+17 Dec 2017 13:17:59 GMT: Log 'EclipseCompiler.txt' opened: 17 Dec 2017 13:17:59 GMT with name C:\Users\EgeOzan\Desktop\HW3\EclipseCompiler.txt
+17 Dec 2017 13:18:13 GMT: diagnostics = javax.tools.DiagnosticCollector@ff01ed
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@158141d
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 13:18:13 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@ee9237' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:18:13 GMT: Compiler call returned
+17 Dec 2017 13:21:44 GMT: diagnostics = javax.tools.DiagnosticCollector@16fdba3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@100cfa3
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 13:21:44 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1f2e2d2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:21:45 GMT: Compiler call returned
+17 Dec 2017 13:21:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@151c82a
+17 Dec 2017 13:21:45 GMT:  Kind = ERROR
+17 Dec 2017 13:21:45 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 37 ColNo = 5 Msg = 'Syntax error on token "}", delete this token'
+17 Dec 2017 13:21:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1307b9a
+17 Dec 2017 13:21:45 GMT:  Kind = ERROR
+17 Dec 2017 13:21:45 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 38 ColNo = 52 Msg = 'Syntax error, insert "}" to complete Statement'
+17 Dec 2017 13:21:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@85f2ce
+17 Dec 2017 13:21:45 GMT:  Kind = ERROR
+17 Dec 2017 13:21:45 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 40 ColNo = 3 Msg = 'Syntax error on token "}", delete this token'
+17 Dec 2017 13:21:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bf7400
+17 Dec 2017 13:21:45 GMT:  Kind = ERROR
+17 Dec 2017 13:21:45 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 212 ColNo = 9 Msg = 'd cannot be resolved to a variable'
+17 Dec 2017 13:24:09 GMT: diagnostics = javax.tools.DiagnosticCollector@1310e0a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d88b30
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:24:09 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@dc03ee' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:24:09 GMT: Compiler call returned
+17 Dec 2017 13:24:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@94d83
+17 Dec 2017 13:24:09 GMT:  Kind = ERROR
+17 Dec 2017 13:24:09 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 36 ColNo = 21 Msg = 'Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression'
+17 Dec 2017 13:24:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@89e050
+17 Dec 2017 13:24:09 GMT:  Kind = ERROR
+17 Dec 2017 13:24:09 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 36 ColNo = 21 Msg = 'Syntax error, insert ";" to complete BlockStatements'
+17 Dec 2017 13:24:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dfa51a
+17 Dec 2017 13:24:09 GMT:  Kind = ERROR
+17 Dec 2017 13:24:09 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 40 ColNo = 1 Msg = 'Syntax error on token "}", delete this token'
+17 Dec 2017 13:24:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16beb9b
+17 Dec 2017 13:24:09 GMT:  Kind = ERROR
+17 Dec 2017 13:24:09 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 212 ColNo = 7 Msg = 'denominatorr cannot be resolved to a variable'
+17 Dec 2017 13:28:43 GMT: diagnostics = javax.tools.DiagnosticCollector@119bd5a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@14437eb
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:28:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@806e8a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:28:43 GMT: Compiler call returned
+17 Dec 2017 13:28:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bfee59
+17 Dec 2017 13:28:43 GMT:  Kind = ERROR
+17 Dec 2017 13:28:43 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 42 ColNo = 1 Msg = 'Syntax error on token "}", delete this token'
+17 Dec 2017 13:28:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@65c773
+17 Dec 2017 13:28:43 GMT:  Kind = ERROR
+17 Dec 2017 13:28:43 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 214 ColNo = 7 Msg = 'denominatorr cannot be resolved to a variable'
+17 Dec 2017 13:28:53 GMT: diagnostics = javax.tools.DiagnosticCollector@1f71279
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@241e09
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:28:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@100e687' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:28:53 GMT: Compiler call returned
+17 Dec 2017 13:28:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14d6aef
+17 Dec 2017 13:28:53 GMT:  Kind = ERROR
+17 Dec 2017 13:28:53 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 214 ColNo = 7 Msg = 'denominatorr cannot be resolved to a variable'
+17 Dec 2017 13:28:57 GMT: diagnostics = javax.tools.DiagnosticCollector@1a1d154
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b9e9c9
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:28:57 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b7acd5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:28:58 GMT: Compiler call returned
+17 Dec 2017 13:28:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1599d7d
+17 Dec 2017 13:28:58 GMT:  Kind = ERROR
+17 Dec 2017 13:28:58 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 213 ColNo = 15 Msg = 'This method must return a result of type java.lang.String'
+17 Dec 2017 13:29:14 GMT: diagnostics = javax.tools.DiagnosticCollector@1c1892a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1093007
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:29:14 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@16845bb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:29:14 GMT: Compiler call returned
+17 Dec 2017 13:29:24 GMT: diagnostics = javax.tools.DiagnosticCollector@60eb38
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@650748
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 13:29:24 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b90a62' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:29:25 GMT: Compiler call returned
+17 Dec 2017 13:33:33 GMT: diagnostics = javax.tools.DiagnosticCollector@a9cafb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1667935
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:33:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a18ff6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:33:33 GMT: Compiler call returned
+17 Dec 2017 13:37:28 GMT: diagnostics = javax.tools.DiagnosticCollector@1e92c24
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b566e4
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:37:28 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17867e6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:37:28 GMT: Compiler call returned
+17 Dec 2017 13:37:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@223fd4
+17 Dec 2017 13:37:28 GMT:  Kind = ERROR
+17 Dec 2017 13:37:28 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 41 ColNo = 3 Msg = 'Syntax error on token "}", delete this token'
+17 Dec 2017 13:37:33 GMT: diagnostics = javax.tools.DiagnosticCollector@96d81a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@cca582
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:37:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@826688' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:37:33 GMT: Compiler call returned
+17 Dec 2017 13:38:12 GMT: diagnostics = javax.tools.DiagnosticCollector@1c59457
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f21b7e
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 13:38:12 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@12ee2a0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:38:12 GMT: Compiler call returned
+17 Dec 2017 13:42:41 GMT: diagnostics = javax.tools.DiagnosticCollector@119e5d6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@58b7d3
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:42:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@56ffb1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:42:41 GMT: Compiler call returned
+17 Dec 2017 13:44:22 GMT: diagnostics = javax.tools.DiagnosticCollector@95e4f1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@8c32a6
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:44:22 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@13e905b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:44:22 GMT: Compiler call returned
+17 Dec 2017 13:44:45 GMT: diagnostics = javax.tools.DiagnosticCollector@185db8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@231e8
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:44:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1109517' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:44:45 GMT: Compiler call returned
+17 Dec 2017 13:45:03 GMT: diagnostics = javax.tools.DiagnosticCollector@1a1e0c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@129ead
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:45:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@52bce8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:45:04 GMT: Compiler call returned
+17 Dec 2017 13:45:04 GMT: diagnostics = javax.tools.DiagnosticCollector@18e7854
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@29fab7
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:45:04 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f2c2fb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:45:04 GMT: Compiler call returned
+17 Dec 2017 13:45:19 GMT: diagnostics = javax.tools.DiagnosticCollector@120e0d3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@932dfd
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 13:45:19 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@3f8d2c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:45:19 GMT: Compiler call returned
+17 Dec 2017 13:46:07 GMT: diagnostics = javax.tools.DiagnosticCollector@916906
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b4864f
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:46:07 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a69ea7' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:46:07 GMT: Compiler call returned
+17 Dec 2017 13:47:41 GMT: diagnostics = javax.tools.DiagnosticCollector@c0da61
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@427b64
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:47:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b61716' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:47:41 GMT: Compiler call returned
+17 Dec 2017 13:48:58 GMT: diagnostics = javax.tools.DiagnosticCollector@dd3ef3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15d4614
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 13:48:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1518e55' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:48:58 GMT: Compiler call returned
+17 Dec 2017 13:49:11 GMT: diagnostics = javax.tools.DiagnosticCollector@b29c3d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1a29704
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 13:49:11 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1619dfb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:49:11 GMT: Compiler call returned
+17 Dec 2017 13:51:43 GMT: diagnostics = javax.tools.DiagnosticCollector@7c3bae
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@26cf78
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:51:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1046d63' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:51:43 GMT: Compiler call returned
+17 Dec 2017 13:51:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1de0536
+17 Dec 2017 13:51:43 GMT:  Kind = ERROR
+17 Dec 2017 13:51:43 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 40 ColNo = 17 Msg = 'Syntax error, insert "AssignmentOperator Expression" to complete Assignment'
+17 Dec 2017 13:51:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7436f1
+17 Dec 2017 13:51:43 GMT:  Kind = ERROR
+17 Dec 2017 13:51:43 GMT: Name = C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java LineNo = 40 ColNo = 17 Msg = 'Syntax error, insert ";" to complete Statement'
+17 Dec 2017 13:52:02 GMT: diagnostics = javax.tools.DiagnosticCollector@67b95e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@20cf40
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:52:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@4091ee' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:52:02 GMT: Compiler call returned
+17 Dec 2017 13:54:21 GMT: diagnostics = javax.tools.DiagnosticCollector@2d9e7c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@69ac74
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 13:54:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@115cc7f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:54:21 GMT: Compiler call returned
+17 Dec 2017 13:58:01 GMT: diagnostics = javax.tools.DiagnosticCollector@bfa411
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f98d6d
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 13:58:01 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@ed9f91' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 13:58:01 GMT: Compiler call returned
+17 Dec 2017 14:00:42 GMT: diagnostics = javax.tools.DiagnosticCollector@15d808a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@af7a81
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 14:00:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b84872' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 14:00:42 GMT: Compiler call returned
+17 Dec 2017 14:01:27 GMT: diagnostics = javax.tools.DiagnosticCollector@787b95
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@9d00e8
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 14:01:27 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1421ae2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 14:01:27 GMT: Compiler call returned
+17 Dec 2017 14:02:10 GMT: diagnostics = javax.tools.DiagnosticCollector@1ffb10e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d3cb7c
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java]
+17 Dec 2017 14:02:10 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@144aa8f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 14:02:10 GMT: Compiler call returned
+17 Dec 2017 14:03:47 GMT: diagnostics = javax.tools.DiagnosticCollector@17ff5d7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15c3013
+fileObjects = [C:\Users\EgeOzan\Desktop\HW3\TestRationalNumber.java, C:\Users\EgeOzan\Desktop\HW3\RationalNumber.java]
+17 Dec 2017 14:03:47 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17b218a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\HW3;C:\Users\EgeOzan\Desktop\DrJava.exe]
+17 Dec 2017 14:03:47 GMT: Compiler call returned

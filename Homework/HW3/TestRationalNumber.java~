@@ -1,0 +1,54 @@
+/*
+ Name: Ege Ozan Özyedek
+ Date: 16.12.2017
+ Program Name: TestRationalNumber
+ Program Description: A class that tests the RationalNumber class
+ */ 
+public class TestRationalNumber {
+  
+  
+  public static void main(String[] args) {
+    
+    RationalNumber x = new RationalNumber(240,25);
+    RationalNumber y = new RationalNumber(5,5);
+    RationalNumber z;
+    
+    
+    z = x.add(y);
+    
+    System.out.println( x + " + " + y + " = " + z );
+    
+    z = x.subtract(y);
+    
+    System.out.println( x + " - " + y + " = " + z );
+    
+    z = x.multiply(y);
+    
+    System.out.println( x + " * " + y + " = " + z );
+    
+    z = x.division(y);
+    
+    System.out.println( x + " / " + y + " = " + z );
+    
+    z = x.reciprocal();
+    
+    System.out.println( x + " -reciprocal- " + z );
+    
+    System.out.println(x.isInteger());
+    
+    System.out.println(x.isZero());
+    
+    System.out.println(x.isLessThan(y));
+    
+    System.out.println(x.equals(y));
+    
+    
+  } 
+  
+  
+  
+  
+  
+  
+  
+}
